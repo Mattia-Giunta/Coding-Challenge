@@ -1,0 +1,96 @@
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover ;
+}
+
+.contenitore {
+    width: 1000px;
+    margin:auto;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    background-color: rgba(7, 7, 7, 0.6);
+    padding: 5%;
+    border-radius: 20px;    
+}
+
+
+.logo {
+    width: 250px;
+}
+
+header {
+    color: rgb(39, 221, 3);
+    text-align: center;
+}
+
+header > span {
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+nav {
+    background-color:rgb(39, 221, 3);
+    height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+
+section {
+    color: white;
+}
+
+.opzioni1 {
+    margin-top: 25px;
+}
+
+.opzioni1 div:first-child {
+    font-size: 23px;
+    font-weight: bold; 
+}
+
+.opzioni1 div:last-child {
+    width: 350px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 8px;
+}
+
+.opzioni2 {
+    margin-top: 25px;
+}
+
+.opzioni2 div:first-child {
+    font-size: 23px;
+    font-weight: bold; 
+}
+
+.opzioni2 div:last-child {
+    width: 600px;
+    height: 35px;
+    background-color:rgb(39, 221, 3);
+    border-radius: 8px;
+}
+
+.opzioni3 {
+    margin-top: 25px;
+}
+
+.opzioni3 div:first-child {
+    font-size: 23px;
+    font-weight: bold; 
+}
+
+.opzioni3 div:last-child {
+    width: 150px;
+    height: 35px;
+    background-color:rgb(158, 55, 72);
+    border-radius: 8px;
+}
+
+.arrow:before {
+     content: "\21A6";
+}
+
